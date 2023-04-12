@@ -51,7 +51,7 @@ public class MathServer extends UnicastRemoteObject implements MathService {
                 MathServer svr = new MathServer();
 
                 Registry registry = LocateRegistry.getRegistry();
-                registry.bind("CalculatorService",svr);
+                registry.bind("  ",svr);
 
                 System.out.println("Service startd");
             }
